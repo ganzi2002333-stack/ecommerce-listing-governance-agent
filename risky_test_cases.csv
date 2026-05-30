@@ -1,0 +1,21 @@
+﻿product_id,title,description,brand,category,manual_risk_level,manual_risk_types,matched_rule_ids,label_notes
+risk_001,Whitening Anti-aging Face Cream 100% Effective,Remove wrinkles in 3 days. Guaranteed result for all skin types.,GlowMax,Beauty,Medium,Misleading Claim; Beauty Claim Risk,R001; R010,Contains absolute efficacy claims and cosmetic overclaim.
+risk_002,Replica Luxury Designer Bag AAA Quality,Same as original designer bag with premium leather look.,Unknown,Fashion,High,IP or Counterfeit Risk,R005; R018,Replica and same as original indicate counterfeit risk.
+risk_003,Hidden Spy Camera USB Charger,Secret recording device for home and office monitoring.,CamPro,Electronics,High,Privacy and Safety Risk,R013,Hidden camera and secret recording imply privacy risk.
+risk_004,Herbal Capsules Cure Diabetes Naturally,Treat diabetes and reduce blood sugar permanently without medicine.,HerbalLifePlus,Health,High,Medical or Health Claim; Restricted Product,R002; R003,Claims to cure and treat disease.
+risk_005,Tactical Knife Outdoor Survival Tool,Sharp combat-style knife for outdoor protection.,SurvivalPro,Sports,High,Prohibited Product,R004,Weapon-related product.
+risk_006,Best Seller Hot Sale Cheap Shoes Free Shipping,"Limited stock, buy now, best price today only.",UrbanStep,Fashion,Medium,Listing Quality Issue; Misleading Promotion,R007; R008,Promotional title and fake urgency.
+risk_007,FDA Approved Slimming Tea Guaranteed Weight Loss,Lose weight instantly with clinically proven results.,SlimFit,Health,Medium,Unverified Certification; Misleading Claim,R001; R011,Unverified certification and guaranteed claim.
+risk_008,Luxury Designer Watch Very Cheap Factory Direct,Premium official style watch at extremely low price.,LuxTime,Accessories,Medium,Fraud or Quality Risk,R018,Luxury positioning with very cheap price indicates suspicious quality or authenticity.
+risk_009,No Brand Phone Cable,N/A,Unknown,Electronics,Low,Listing Quality Issue,R006; R015,Missing description and unclear brand.
+risk_010,Guaranteed Next Day Worldwide Delivery Gift Box,Instant delivery worldwide in 24 hours for every country.,GiftNow,Gifts,Medium,Service Claim Risk,R020,Unverifiable logistics claim.
+risk_011,Official Pokemon Anime Character Hoodie,Licensed character style hoodie with official logo.,FanWear,Apparel,Medium,IP Risk,R017,Potential unauthorized character or logo use.
+risk_012,Toxic Industrial Cleaning Chemical,Highly corrosive liquid for heavy-duty use.,CleanMax,Home Improvement,High,Hazardous Product,R014,Toxic and corrosive chemical.
+risk_013,Make Money Fast E-book Guaranteed Profit,Risk-free income method with guaranteed investment return.,WealthGuide,Books,High,Financial Claim Risk,R016,Guaranteed profit and risk-free income claim.
+risk_014,Women Cotton T-shirt,Soft cotton crew neck T-shirt for daily wear.,BasicWear,Apparel,Low,Normal Listing,,Normal product information.
+risk_015,Stainless Steel Water Bottle,Reusable 500ml stainless steel bottle for outdoor and office use.,HydroDaily,Home,Low,Normal Listing,,Normal product information.
+risk_016,Random Text !!! Cheap Cheap Cheap,%%%% best best best ??? random text,Unknown,Misc,Low,Listing Quality Issue,R019,Poor readability and broken description.
+risk_017,Antibiotic Cream Prescription Strength,Strong antibiotic treatment for skin infection.,MediCare,Health,High,Restricted Product; Medical or Health Claim,R002; R003,Prescription and antibiotic treatment claim.
+risk_018,Adult Explicit Novelty Product,Erotic adult product for private use.,PrivateLife,Adult,High,Sensitive Product,R012,Adult or explicit product.
+risk_019,CE Certified Baby Safety Seat,"Official certified product, no documents provided.",BabySafe,Baby,Medium,Unverified Certification,R011,Certification claim may need verification.
+risk_020,Generic Phone Case,Silicone phone case compatible with common smartphone models.,Generic,Accessories,Low,Normal Listing,,Normal listing with clear product function.
