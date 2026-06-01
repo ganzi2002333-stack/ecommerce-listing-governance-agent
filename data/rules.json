@@ -1,0 +1,182 @@
+[
+  {
+    "rule_id": "R001",
+    "rule_name": "Absolute or exaggerated claims",
+    "risk_type": "Misleading Claim",
+    "risk_level": "Medium",
+    "description": "Product title or description should avoid absolute claims such as 100% effective, guaranteed results, best in the world, or instant cure unless verified.",
+    "evidence_keywords": ["100%", "guaranteed", "best", "instant", "no.1", "cure"],
+    "merchant_suggestion": "Replace absolute claims with verifiable product features and neutral descriptions."
+  },
+  {
+    "rule_id": "R002",
+    "rule_name": "Medical treatment claim",
+    "risk_type": "Medical or Health Claim",
+    "risk_level": "High",
+    "description": "Products should not claim to diagnose, treat, cure, or prevent diseases without proper authorization.",
+    "evidence_keywords": ["treat", "cure", "prevent disease", "heal", "anti-cancer", "diabetes"],
+    "merchant_suggestion": "Remove medical treatment claims and describe general usage only."
+  },
+  {
+    "rule_id": "R003",
+    "rule_name": "Restricted medicine or drug product",
+    "risk_type": "Restricted Product",
+    "risk_level": "High",
+    "description": "Listings related to prescription drugs, controlled substances, or unapproved medicine should be flagged for review.",
+    "evidence_keywords": ["prescription", "opioid", "steroid", "antibiotic", "controlled drug"],
+    "merchant_suggestion": "Do not list restricted medicines unless the platform and local regulations allow it."
+  },
+  {
+    "rule_id": "R004",
+    "rule_name": "Weapon or dangerous item",
+    "risk_type": "Prohibited Product",
+    "risk_level": "High",
+    "description": "Weapons, explosives, or products intended to cause harm should be flagged as high-risk.",
+    "evidence_keywords": ["gun", "knife", "explosive", "taser", "ammo", "firework"],
+    "merchant_suggestion": "Remove prohibited weapons or dangerous items from the listing."
+  },
+  {
+    "rule_id": "R005",
+    "rule_name": "Counterfeit or brand impersonation risk",
+    "risk_type": "IP or Counterfeit Risk",
+    "risk_level": "High",
+    "description": "Listings suggesting replicas, fake branded goods, or unauthorized brand use may indicate counterfeit risk.",
+    "evidence_keywords": ["replica", "fake", "copy", "AAA quality", "inspired by", "same as original"],
+    "merchant_suggestion": "Use only authorized brand information and avoid counterfeit-related wording."
+  },
+  {
+    "rule_id": "R006",
+    "rule_name": "Missing key product information",
+    "risk_type": "Listing Quality Issue",
+    "risk_level": "Low",
+    "description": "Listings should include enough information such as product name, category, size, material, function, or usage.",
+    "evidence_keywords": ["unknown", "n/a", "no description", "misc"],
+    "merchant_suggestion": "Add clear product attributes including material, size, function, and usage."
+  },
+  {
+    "rule_id": "R007",
+    "rule_name": "Keyword stuffing in title",
+    "risk_type": "Listing Quality Issue",
+    "risk_level": "Medium",
+    "description": "Product titles should not contain excessive unrelated keywords or repeated promotional terms.",
+    "evidence_keywords": ["hot sale", "best seller", "cheap", "free shipping", "new arrival"],
+    "merchant_suggestion": "Rewrite the title using product type, brand, main feature, and key specification."
+  },
+  {
+    "rule_id": "R008",
+    "rule_name": "Misleading promotion or fake urgency",
+    "risk_type": "Misleading Promotion",
+    "risk_level": "Medium",
+    "description": "Listings should avoid fake scarcity or misleading promotion claims such as limited stock when not verified.",
+    "evidence_keywords": ["only today", "last chance", "limited stock", "buy now", "exclusive deal"],
+    "merchant_suggestion": "Use factual promotion language and avoid unverifiable urgency claims."
+  },
+  {
+    "rule_id": "R009",
+    "rule_name": "Category mismatch",
+    "risk_type": "Category Governance",
+    "risk_level": "Medium",
+    "description": "Product category should match the title and description. Mismatched categories may affect user experience and governance accuracy.",
+    "evidence_keywords": ["category mismatch", "wrong category", "unrelated category"],
+    "merchant_suggestion": "Review and select the most accurate product category."
+  },
+  {
+    "rule_id": "R010",
+    "rule_name": "Cosmetic efficacy overclaim",
+    "risk_type": "Beauty Claim Risk",
+    "risk_level": "Medium",
+    "description": "Cosmetic products should avoid strong efficacy claims such as removing wrinkles permanently or whitening immediately.",
+    "evidence_keywords": ["remove wrinkles", "whitening", "permanent", "3 days", "anti-aging miracle"],
+    "merchant_suggestion": "Describe cosmetic benefits in moderate and non-medical language."
+  },
+  {
+    "rule_id": "R011",
+    "rule_name": "Safety certification claim",
+    "risk_type": "Unverified Certification",
+    "risk_level": "Medium",
+    "description": "Listings should not claim FDA, CE, or other certifications unless the merchant can provide valid evidence.",
+    "evidence_keywords": ["FDA approved", "CE certified", "clinically proven", "official certified"],
+    "merchant_suggestion": "Keep certification claims only when supporting documents are available."
+  },
+  {
+    "rule_id": "R012",
+    "rule_name": "Adult or explicit content",
+    "risk_type": "Sensitive Product",
+    "risk_level": "High",
+    "description": "Adult, explicit, or sexually suggestive products should be reviewed according to platform rules and local regulations.",
+    "evidence_keywords": ["adult toy", "explicit", "sexual", "erotic"],
+    "merchant_suggestion": "Check whether the product is allowed and ensure proper category and age restrictions."
+  },
+  {
+    "rule_id": "R013",
+    "rule_name": "Surveillance or privacy-invasive product",
+    "risk_type": "Privacy and Safety Risk",
+    "risk_level": "High",
+    "description": "Hidden cameras, spyware, or privacy-invasive devices may create legal and platform safety risks.",
+    "evidence_keywords": ["hidden camera", "spy camera", "tracking device", "spyware"],
+    "merchant_suggestion": "Remove privacy-invasive positioning and clarify legitimate use if allowed."
+  },
+  {
+    "rule_id": "R014",
+    "rule_name": "Dangerous chemicals",
+    "risk_type": "Hazardous Product",
+    "risk_level": "High",
+    "description": "Listings involving toxic, flammable, corrosive, or hazardous chemicals should be flagged for human review.",
+    "evidence_keywords": ["toxic", "flammable", "corrosive", "poison", "hazardous chemical"],
+    "merchant_suggestion": "Ensure compliance documents and safety information are provided."
+  },
+  {
+    "rule_id": "R015",
+    "rule_name": "Unclear brand information",
+    "risk_type": "Listing Quality Issue",
+    "risk_level": "Low",
+    "description": "Missing or unclear brand information may reduce listing quality and user trust.",
+    "evidence_keywords": ["unknown brand", "no brand", "generic"],
+    "merchant_suggestion": "Provide accurate brand information or mark the product as unbranded where allowed."
+  },
+  {
+    "rule_id": "R016",
+    "rule_name": "Financial return claim",
+    "risk_type": "Financial Claim Risk",
+    "risk_level": "High",
+    "description": "Products or services should not promise guaranteed financial returns or investment profits.",
+    "evidence_keywords": ["guaranteed profit", "investment return", "make money fast", "risk-free income"],
+    "merchant_suggestion": "Remove financial return promises and avoid investment-like claims."
+  },
+  {
+    "rule_id": "R017",
+    "rule_name": "Copyright or unauthorized character use",
+    "risk_type": "IP Risk",
+    "risk_level": "Medium",
+    "description": "Listings using copyrighted characters, logos, or entertainment IP without authorization may require review.",
+    "evidence_keywords": ["Disney", "Marvel", "Pokemon", "official logo", "anime character"],
+    "merchant_suggestion": "Use only authorized IP content and provide licensing evidence where necessary."
+  },
+  {
+    "rule_id": "R018",
+    "rule_name": "Inconsistent price and product positioning",
+    "risk_type": "Fraud or Quality Risk",
+    "risk_level": "Medium",
+    "description": "Extremely low prices for premium or branded products may indicate counterfeit or misleading listings.",
+    "evidence_keywords": ["luxury", "designer", "premium", "official", "very cheap"],
+    "merchant_suggestion": "Check whether the price, brand, and description are consistent."
+  },
+  {
+    "rule_id": "R019",
+    "rule_name": "Poor description readability",
+    "risk_type": "Listing Quality Issue",
+    "risk_level": "Low",
+    "description": "Descriptions with broken text, excessive symbols, or unclear language may reduce user experience.",
+    "evidence_keywords": ["!!!", "???", "%%%%", "random text"],
+    "merchant_suggestion": "Rewrite the description in clear and complete sentences."
+  },
+  {
+    "rule_id": "R020",
+    "rule_name": "Unverified logistics or delivery claim",
+    "risk_type": "Service Claim Risk",
+    "risk_level": "Medium",
+    "description": "Listings should avoid unverifiable logistics claims such as guaranteed next-day delivery worldwide.",
+    "evidence_keywords": ["guaranteed next day", "worldwide in 24 hours", "instant delivery"],
+    "merchant_suggestion": "Use delivery claims that match actual logistics capability."
+  }
+]
