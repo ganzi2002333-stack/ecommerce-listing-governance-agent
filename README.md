@@ -428,13 +428,3 @@ ecom_governance_agent/
 * 加入 human-in-the-loop 人工复核机制；
 * 设计商家申诉与反馈闭环；
 * 增加仪表盘展示不同风险类型的分布情况。
-
----
-
-## 13. 简历项目描述参考
-
-**跨境电商商品治理 AI Agent 项目｜个人项目**
-
-基于公开电商商品数据与自建商品治理规则库，设计并实现商品治理 AI Agent，支持商品标题、描述、品牌、类目等字段的风险识别、规则检索、整改建议生成与结构化输出。使用 LangGraph 搭建“输入解析—规则检索—风险判断—整改建议”工作流，结合 Chroma 构建 RAG 规则知识库，并通过 Streamlit 实现可交互 Demo，支持单条商品检测与批量 CSV 分析。构建 20 条人工构造并标注的风险测试样本，覆盖禁限售、误导性声明、知识产权、隐私安全、危险品、商品质量等治理场景，对 Agent 风险识别效果进行小规模评估，初始准确率达 80%，并基于 Low-risk 样本误报问题优化风险等级判定 Prompt。
-
-**技术栈：** Python、LangGraph、Chroma、RAG、Ollama、Qwen2.5、Streamlit、Pandas、Scikit-learn。
